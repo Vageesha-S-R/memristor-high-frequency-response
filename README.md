@@ -34,8 +34,28 @@ State convergence for different DC biases.
 
 ## How to Run
 
-### Python
+### Python simulation
 ```bash
 pip install -r requirements.txt
 python python/sine_frequency_sweep.py
 python python/fading_memory.py
+```
+### MATLAB simulation
+```bash
+Open MATLAB and run:
+matlab/square_wave_dc_offset.m
+```
+
+## Requirements
+
+### Python
+```bash
+Python 3.9+
+numpy
+matplotlib
+scipy
+```
+### MATLAB
+```bash
+MATLAB R2020+ (or compatible)
+```
